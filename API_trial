@@ -1,0 +1,27 @@
+HOW TO MAKE API
+https://www.youtube.com/watch?v=F1RwUI3p4bI&list=PLG3j59vX4yLHA-wCw7KDP-i0r10ZrckqG&index=4
+
+Install Node/JS https://nodejs.org/en
+
+npm init -y
+npm install --save express
+npm install --save sequlize
+sequelize init
+
+npm install --save mysql2
+sequilize model:generate --name Post --attributes
+
+
+
+
+
+*fix problem sequelize*
+
+open powershell in administration
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned
+Get-ExecutionPolicy
+sequelize --version
+
+
+
