@@ -14,7 +14,7 @@ sequilize model:generate --name Post --attributes
 
 
 
-
+PM2 can help manage and keep your Node.js application running.
 
 *fix problem sequelize*
 
