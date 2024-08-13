@@ -40,6 +40,8 @@ npx sequelize-cli init
 npx sequelize-cli migration:generate --name migration_name
 //write migration//
 
+token github : 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
+
 
 
 
