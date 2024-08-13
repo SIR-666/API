@@ -25,4 +25,21 @@ Get-ExecutionPolicy
 sequelize --version
 
 
+*make new API *
+npm install sequelize sequelize-cli mysql2
+
+//if error use this//
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
+//if error use this//
+
+npx sequelize-cli init
+//change config.json
+
+npx sequelize-cli migration:generate --name migration_name
+//write migration//
+
+
+
 
